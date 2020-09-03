@@ -1,0 +1,7 @@
+export const FETCH_COMPLETED = 'FETCH_COMPLETED'
+export const THROW_ERROR = 'THROW_ERROR'
+export const CLEAR_ERROR = 'CLEAR_ERROR'
+export const LOADING = 'LOADING'
+export const NOT_LOADING = 'NOT_LOADING'
+export const ADD_NEW_QUERY = 'ADD_NEW_QUERY'
+export const SET_SEARCH_QUERY = 'SET_SEARCH_QUERY'
