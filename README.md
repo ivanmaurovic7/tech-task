@@ -1,5 +1,7 @@
 # Technical assignment
 ## How to start the project
-### Navigate to /api and run npm i, then run node index
-### Open another therminal and go to root directory and run npm i, then npm start
-## Stack - React & Express
+### 1.) Navigate to /api and run npm i, then run node index
+### 2.) Open another therminal and go to root directory and run npm i, then npm start
+### 3.) Open http://localhost:3000/ in browser
+-------------------------------------------------
+## Tech stack - React & Express
