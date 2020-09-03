@@ -19,7 +19,7 @@ const SearchForm = ({
 
   return (
     <div className="searchForm">
-        <TextField className="input" error={error ? true : false} value={searchQuery} onChange={e => setSearchQuery(e.target.value)} label="Please input search query" />
+        <TextField className="input" error={error ? true : false} value={searchQuery} onKeyDown={e => { if (e.key === 'Enter') fetchResults(searchQuery) }} onChange={e => setSearchQuery(e.target.value)} label="Please input search query" />
         <Button 
           className="button"
           variant="contained" color="primary"
